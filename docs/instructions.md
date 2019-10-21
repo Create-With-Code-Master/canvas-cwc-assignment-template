@@ -2,12 +2,18 @@
 layout: tabbed-assignment
 ---
 
+<!-- Don't edit links here, change them in _data/assignment.yml instead. -->
+
+[lesson]: <{{site.data.assignment.lesson}}>
+[slides]: <{{site.data.assignment.slides}}>
+[template]: <{{site.data.assignment.template}}>
+
 <style>
 div#time-estimate {
     border-style: solid;
     border-color: #218180;
     border-radius: 8px;
-    padding: 0 10px 0 10px;
+    padding: 6px 10px 6px 10px;
 }
 summary {
     font-weight: bold;
@@ -24,20 +30,20 @@ If all goes well this lesson should take about one block. Be sure to allow time 
 
 <p>
 <details>
-<summary>Launch GitHub Desktop and make sure that your local copy of the repository is up to date.</summary>
+<summary>Launch GitHub Desktop and make sure that your local copy of the {{site.data.assignment.starter-code-repo}} repository is up to date.</summary>
 <ol>
-    <li>Make sure that you are in your <b>Prototype-1<b> repository.</li>
-    <li>Do a fetch to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a pull bring the local code up to date.</li>
-    <li>Make sure that you are on your most recent branch.</li>
+    <li>Make sure that your <b>{{site.data.assignment.starter-code-repo}}</b> repository is selected.</li>
+    <li>Do a <b>fetch</b> to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a <b>pull</b> to incorporate your changes.</li>
+    <li>Make sure that you are on the {{site.data.assignment.get-prev-branch}} branch.</li>
 </ol>
 
 </details>
 
-<p><details><summary>Create and publish a step-3 branch.</summary>
+<p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
 
 </details>
 
-<p><details><summary>Get ready to take notes.</summary>
+<p><details><summary>Go to the [lesson][] and get ready to take notes.</summary>
 
     - Get headphones if you need them.
     - Start a page for this lesson in your notebook with a title and date.
@@ -50,16 +56,19 @@ If all goes well this lesson should take about one block. Be sure to allow time 
     - Vocabulary
     - The Unity user interface
     - Implementing game mechanics.
+    
+</details>
+
+<p><details><summary>After watching each video, do the steps in Unity.</summary>
+
+If necessary refer to your notes (update them if you find yourself stuck). You can use the abreviated steps below each video for cues on what to do.
 
 </details>
 
-<p><details><summary>After watching each video, do the process in Unity.</summary>
-
-If necessary, add to your notes &mdash; you want to be able to come back to your notes so you don't have to watch the video again.
-
 </details>
 
-<!-- Don't edit links here, change them in _data/assignment.yml instead, -->
+<p><details><summary>Submit your work.</summary>
 
-[slides]: <{{site.data.assignment.slides}}>
-[template]: <{{site.data.assignment.template}}>
+When you're done for the day, go to the submission tab, check the instructions, and submit.
+
+</details>
