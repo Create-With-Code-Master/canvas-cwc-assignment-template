@@ -8,7 +8,7 @@ At the end of class:
 
 1. Commit and push your changes.
 
-## If you are still working on the lesson:
+<b>If you are still working on the lesson:</b>
 
 1. Submit a link to the **{{site.data.assignment.git-current-branch}}** branch of your **{{site.data.assignment.starter-code-repo}}** repository on GitHub.
 1. Leave a brief comment explaining:
@@ -17,7 +17,7 @@ At the end of class:
 1. Update your notes so that you know where you were and what to get started on next class.
 1. Be sure to complete the lesson and resubmit.
 
-## If you have completed the lesson:
+<b>If you have completed the lesson:</b>
 
 1. Make yourself an editable copy of the [submission template][template] for this assignment. 
 If you need tips on how to do this, expand the instructions below. Then…
