@@ -43,7 +43,7 @@ If all goes well this lesson should take about one block. Be sure to allow time 
 
 </details>
 
-<p><details><summary>Go to the [lesson][] and get ready to take notes.</summary>
+<p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a> and get ready to take notes.</summary>
 
     - Get headphones if you need them.
     - Start a page for this lesson in your notebook with a title and date.
