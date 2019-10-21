@@ -65,8 +65,6 @@ If necessary refer to your notes (update them if you find yourself stuck). You c
 
 </details>
 
-</details>
-
 <p><details><summary>Submit your work.</summary>
 
 When you're done for the day, go to the submission tab, check the instructions, and submit.
