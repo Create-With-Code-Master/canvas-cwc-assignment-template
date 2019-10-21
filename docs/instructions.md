@@ -26,7 +26,7 @@ If all goes well this lesson should take about one block. Be sure to allow time 
 <details>
 <summary>Launch GitHub Desktop and make sure that your local copy of the repository is up to date.</summary>
 <ol>
-    <li>Make sure that you are in your <strong>Prototype-1<strong> repository.</li>
+    <li>Make sure that you are in your <b>Prototype-1<b> repository.</li>
     <li>Do a fetch to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a pull bring the local code up to date.</li>
     <li>Make sure that you are on your most recent branch.</li>
 </ol>
