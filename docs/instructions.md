@@ -8,25 +8,9 @@ layout: tabbed-assignment
 [slides]: <{{site.data.assignment.slides}}>
 [template]: <{{site.data.assignment.template}}>
 
-<style>
-div#time-estimate {
-    border-style: solid;
-    border-color: #218180;
-    border-radius: 8px;
-    padding: 6px 10px 6px 10px;
-}
-summary {
-    font-weight: bold;
-}
-</style>
-
 # Instructions
 
-<div id="time-estimate">
-
-If all goes well this lesson should take about one block. Be sure to allow time to submit &mdash; even if you have more to do next class.
-
-</div>
+{% include time-estimate.html %}
 
 <p>
 <details>
