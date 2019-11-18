@@ -19,8 +19,11 @@ layout: tabbed-assignment
 </details>
 
 {% if site.data.assignment.site.data.assignment.git-prev-branch %}
+
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
+    
 {% else %}
+
 <p><details><summary>Confirm that you are on the {{site.data.assignment.git-curr-branch}} branch.</summary>
 
 Switch to, or if necessary, create the {{site.data.assignment.git-curr-branch}} branch:
@@ -28,9 +31,13 @@ Switch to, or if necessary, create the {{site.data.assignment.git-curr-branch}} 
 {% endif %}
 
 - Select the **Current Branch** drop down.
+
 {% if ! site.data.assignment.site.data.assignment.git-prev-branch %}
+
 - If you have a **{{site.data.assignment.git-curr-branch}}**, switch to it. Otherwise,
+
 {% endif %}
+
 - Click on the **New Branch** button.
 - Enter **{{site.data.assignment.git-curr-branch}}** in the **Name** field.
 - Click on the **Create Branch** button.
