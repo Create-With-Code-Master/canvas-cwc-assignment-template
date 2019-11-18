@@ -40,22 +40,28 @@ layout: tabbed-assignment
 
 </details></p>
 
-<p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a>.</summary>
+<p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a> and work through the videos.</summary>
 
+Work in a loop:
 
-</details></p>
+- Watch a video
+- As you watch outline the video in your notes
+- Make notes on the new material:
+  - Vocabulary
+  - The Unity user interface
+  - Implementing game mechanics.
+- After watching a video, do the process you just learned
 
-<p><details><summary>Watch each video, taking notes on the new material.</summary>
+  Use the cues below each video to help you remember what to do, **but do not try to do the lesson without watching the video - there is a wealth of information in the video that you won't get by just following the cues.**
 
-- Vocabulary
-- The Unity user interface
-- Implementing game mechanics.
-    
-</details></p>
-
-<p><details><summary>After watching each video, do the steps in Unity.</summary>
-
-If necessary refer to your notes (update them if you find yourself stuck). You can use the abreviated steps below each video for cues on what to do. **But do not try to do the lesson without watching the video - there is a wealth of information in the video that you won't get by just following the cues.**
+- After completing the work for each video, commit your changes:
+  - Save the scene in Unity and your scripts in Visual Studio Code, then
+  - Go to **GitHub Desktop** - once you click on GitHub Desktop you should see a list of changed files.
+  
+  If you do not your first priority is to troubleshoot. The most likely cause is that you forgot to save. If that is not the problem, then it is likely that Unity and GitHub Desktop are looking at different folders. Fix that now. If you've just started on the project the easiest thing to do may be to start over.
+  
+  - Write a brief summary of what you did.
+  - Click the **Commit** button.
 
 </details></p>
 
