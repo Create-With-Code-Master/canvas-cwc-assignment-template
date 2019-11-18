@@ -63,9 +63,23 @@ Work in a loop:
 
 </details></p>
 
+<p><details><summary>Merge your work to the <b>master</b> branch.</summary>
+
+After you have finished all of the videos for the lesson, do one final test to ensure that the prototype is working as expected. Then:
+
+- Go to GitHub Desktop.
+- Confirm that you have no uncommitted changes. If you do, commit them. Then test again.
+- Switch to the **master** branch.
+- Click on the **Current Branch** drop down again, and then on the **Choose a branch to merge into master** button at the bottom of the drop down.
+- From the list of branches choose the **{{site.data.assignment.git-curr-branch}}**.
+- Click on the blue **Merge {{site.data.assignment.git-curr-branch}} into master** button.
+- Push your changes to GitHub.
+
+</details></p>
+
 <p><details><summary>Submit your work.</summary>
 
-When you're done for the day, go to the submission tab, check the instructions, and submit.
+When you're finished, go to the submission tab, check the instructions, and submit.
 
 </details></p>
 
