@@ -13,7 +13,10 @@ layout: tabbed-assignment
 
 - Make sure that your **{{site.data.assignment.starter-code-repo}}** repository is selected.
 - Do a **fetch** to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a **pull** to incorporate your changes.
+
+{% if site.data.assignment.git-prev-branch %}
 - Make sure that you are on the **{{site.data.assignment.git-prev-branch}}** branch.
+{% endif %}
 
 </details>
 
