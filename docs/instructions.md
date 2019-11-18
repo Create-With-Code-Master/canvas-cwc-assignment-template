@@ -75,6 +75,14 @@ After you have finished all of the videos for the lesson, do one final test to e
 - Click on the blue **Merge {{site.data.assignment.git-curr-branch}} into master** button.
 - Push your changes to GitHub.
 
+  After pushing, use the **View on GitHub** button in GitHub Desktop to go to your repository on GitHub and confirm that your changes are visible.
+
+</details></p>
+
+<p><details><summary>Update your notes.</summary>
+
+Before wrapping up at the end of the period, make sure that you have committed and pushed your latest changes and that you've updated your notes to show how far you have gotten. This will be helpful when you figure out where to pick up next class.
+
 </details></p>
 
 <p><details><summary>Submit your work.</summary>
