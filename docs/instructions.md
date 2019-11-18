@@ -25,8 +25,6 @@ layout: tabbed-assignment
 
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
     
-
-
 {% endif %}
 
 - Select the **Current Branch** drop down.
