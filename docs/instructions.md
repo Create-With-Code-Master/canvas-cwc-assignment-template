@@ -20,6 +20,8 @@ layout: tabbed-assignment
 
 </details>
 
+{% if site.data.assignment.git-prev-branch %}
+
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
     
 - Select the **Current Branch** drop down.
@@ -28,6 +30,8 @@ layout: tabbed-assignment
 - Click on the **Create Branch** button.
 
 </details>
+
+{% endif %}
 
 <p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a> and get ready to take notes.</summary>
 
