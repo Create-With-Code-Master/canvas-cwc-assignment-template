@@ -24,7 +24,7 @@ layout: tabbed-assignment
 
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
   
-{% elsif !site.data.assignment.git-prev-branch %}
+{% else %}
 
 <p><details><summary>Confirm that you are on your {{site.data.assignment.git-curr-branch}} branch.</summary>
 
