@@ -8,15 +8,32 @@ layout: tabbed-assignment
 
 <p>
 <details>
-<summary>Launch GitHub Desktop and make sure that your local copy of the {{site.data.assignment.starter-code-repo}} repository is up to date.</summary>
+<summary>Launch **GitHub Desktop** and make sure that your local copy of the {{site.data.assignment.starter-code-repo}} repository is up to date.</summary>
 
 - Make sure that your **{{site.data.assignment.starter-code-repo}}** repository is selected.
 - Do a **fetch** to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a **pull** to incorporate your changes.
-- Make sure that you are on the **{{site.data.assignment.get-prev-branch}}** branch.
+{% if site.data.assignment.site.data.assignment.git-prev-branch %}
+- Make sure that you are on the **{{site.data.assignment.git-prev-branch}}** branch.
+{% endif %}
 
 </details>
 
+{% if site.data.assignment.site.data.assignment.git-prev-branch %}
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
+{% else %}
+<p><details><summary>Confirm that you are on the {{site.data.assignment.git-curr-branch}} branch.</summary>
+
+Switch to, or if necessary, create the {{site.data.assignment.git-curr-branch}} branch:
+
+{% endif %}
+
+- Select the **Current Branch** drop down.
+{% if ! site.data.assignment.site.data.assignment.git-prev-branch %}
+- If you have a **{{site.data.assignment.git-curr-branch}}**, switch to it. Otherwise,
+{% endif %}
+- Click on the **New Branch** button.
+- Enter **{{site.data.assignment.git-curr-branch}}** in the **Name** field.
+- Click on the **Create Branch** button.
 
 </details>
 
