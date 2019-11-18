@@ -23,6 +23,12 @@ layout: tabbed-assignment
 {% if site.data.assignment.git-prev-branch %}
 
 <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
+  
+{% elseif !site.data.assignment.git-prev-branch %}
+
+<p><details><summary>Confirm that you are on your {{site.data.assignment.git-curr-branch}} branch.</summary>
+
+{% endif %}
     
 - Select the **Current Branch** drop down.
 - Click on the **New Branch** button.
@@ -30,8 +36,6 @@ layout: tabbed-assignment
 - Click on the **Create Branch** button.
 
 </details>
-
-{% endif %}
 
 <p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a> and get ready to take notes.</summary>
 
