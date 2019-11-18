@@ -7,6 +7,11 @@ layout: tabbed-assignment
 {% include time-estimate.html %}
 
 <p><details><summary>Start your notes.</b></summary>
+  
+ - Start a page for this lesson in your notebook with a **title and date**.
+ - Check you notes from the previous class to see where to start.
+ - Review the [learning targets](learning-targets.html) to see what you should be focusing on learning and understanding.
+
 </details></p>
 
 <p><details><summary>Launch <b>GitHub Desktop</b> and make sure that your <b>{{site.data.assignment.starter-code-repo}}</b> repository is up to date.</summary>
@@ -37,8 +42,6 @@ layout: tabbed-assignment
 
 <p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a>.</summary>
 
-- Start a page for this lesson in your notebook with a title and date.
-- Review the learning targets to see what you should be focusing on.
 
 </details></p>
 
