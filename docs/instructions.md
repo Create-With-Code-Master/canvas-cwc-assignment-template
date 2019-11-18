@@ -6,10 +6,10 @@ layout: tabbed-assignment
 
 {% include time-estimate.html %}
 
-<p>
-<details>
-  
-  <summary>Launch <b>GitHub Desktop</b> and make sure that your {{site.data.assignment.starter-code-repo}} repository is up to date.</summary>
+<p><details><summary>Start your notes.</b></summary>
+</details></p>
+
+<p><details><summary>Launch <b>GitHub Desktop</b> and make sure that your <b>{{site.data.assignment.starter-code-repo}}</b> repository is up to date.</summary>
 
 - Make sure that your **{{site.data.assignment.starter-code-repo}}** repository is selected.
 - Do a **fetch** to make sure your local copy of the code is up to date, if you have done work on the GitHub site or at home between classes you will be prompted to do a **pull** to incorporate your changes.
@@ -18,17 +18,14 @@ layout: tabbed-assignment
 - Make sure that you are on the **{{site.data.assignment.git-prev-branch}}** branch.
 {% endif %}
 
-</details>
+</details></p>
 
 {% if site.data.assignment.git-prev-branch %}
-
-<p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
-  
+  <p><details><summary>Create and publish a {{site.data.assignment.git-curr-branch}} branch.</summary>
 {% else %}
+  <p><details><summary>Confirm that you are on your {{site.data.assignment.git-curr-branch}} branch.</summary>
 
-<p><details><summary>Confirm that you are on your {{site.data.assignment.git-curr-branch}} branch.</summary>
-
-If necessary, create the {{site.data.assignment.git-curr-branch}} branch.
+  If necessary, create the **{{site.data.assignment.git-curr-branch}}** branch.
 {% endif %}
     
 - Select the **Current Branch** drop down.
@@ -36,11 +33,10 @@ If necessary, create the {{site.data.assignment.git-curr-branch}} branch.
 - Enter **{{site.data.assignment.git-curr-branch}}** in the **Name** field.
 - Click on the **Create Branch** button.
 
-</details>
+</details></p>
 
-<p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a> and get ready to take notes.</summary>
+<p><details><summary>Go to the <a href="{{site.data.assignment.lesson}}">lesson</a>.</summary>
 
-- Get headphones if you need them.
 - Start a page for this lesson in your notebook with a title and date.
 - Review the learning targets to see what you should be focusing on.
 
@@ -52,19 +48,19 @@ If necessary, create the {{site.data.assignment.git-curr-branch}} branch.
 - The Unity user interface
 - Implementing game mechanics.
     
-</details>
+</details></p>
 
 <p><details><summary>After watching each video, do the steps in Unity.</summary>
 
-If necessary refer to your notes (update them if you find yourself stuck). You can use the abreviated steps below each video for cues on what to do.
+If necessary refer to your notes (update them if you find yourself stuck). You can use the abreviated steps below each video for cues on what to do. **But do not try to do the lesson without watching the video - there is a wealth of information in the video that you won't get by just following the cues.**
 
-</details>
+</details></p>
 
 <p><details><summary>Submit your work.</summary>
 
 When you're done for the day, go to the submission tab, check the instructions, and submit.
 
-</details>
+</details></p>
 
 <!-- Don't edit links here, change them in _data/assignment.yml instead. -->
 
