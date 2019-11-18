@@ -52,14 +52,12 @@ Work in a loop:
   - Implementing game mechanics.
 - After watching a video, do the process you just learned
 
-  Use the cues below each video to help you remember what to do, **but do not try to do the lesson without watching the video - there is a wealth of information in the video that you won't get by just following the cues.**
-
+  Use your notes and the cues below each video to help you remember what to do, **but do not try to do the lesson without watching the video** - there is a wealth of information in the video that you won't get by just following the cues.
 - After completing the work for each video, commit your changes:
   - Save the scene in Unity and your scripts in Visual Studio Code, then
   - Go to **GitHub Desktop** - once you click on GitHub Desktop you should see a list of changed files.
   
-  If you do not your first priority is to troubleshoot. The most likely cause is that you forgot to save. If that is not the problem, then it is likely that Unity and GitHub Desktop are looking at different folders. Fix that now. If you've just started on the project the easiest thing to do may be to start over.
-  
+  If you do not your first priority is to troubleshoot. The most likely cause is that you forgot to save. If that is not the problem, then it is likely that Unity and GitHub Desktop are looking at different folders. Fix that now. If you've just started on the project the easiest thing to do may be to start over.  
   - Write a brief summary of what you did.
   - Click the **Commit** button.
 
