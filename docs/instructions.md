@@ -28,6 +28,7 @@ layout: tabbed-assignment
 
 <p><details><summary>Confirm that you are on your {{site.data.assignment.git-curr-branch}} branch.</summary>
 
+If necessary, create the {{site.data.assignment.git-curr-branch}} branch.
 {% endif %}
     
 - Select the **Current Branch** drop down.
