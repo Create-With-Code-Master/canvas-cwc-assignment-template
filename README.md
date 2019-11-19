@@ -17,7 +17,7 @@ This template is the boilerplate for a single Canvas assignment.
 1. Edit ```docs/_data/assignment.yml``` to reflect the parameters of this assignment. Custom values may be added, they can be referenced in [Liquid][] code as ```site.data.assignments.valueName```.
    - If an **outcome** is set, the text will be displayed above the tabs.
 1. Edit ```docs/_data/tabs.yml``` to change the names (or number) of the tabs and/or the file they refer to.
-1. The [Canvas Template][canvas-template] can be overridden by creating a parallel file in the [docs](docs) folder.
+1. The [Canvas Theme][canvas-theme] can be overridden by creating a parallel file in the [docs](docs) folder.
 
-[canvas-template]: <>
+[canvas-theme]: <https://github.com/DouglasUrner/canvas>
 [liquid]: <https://shopify.github.io/liquid/>
