@@ -4,14 +4,15 @@ layout: tabbed-assignment
 
 # Submission Instructions
 
-After completing a lesson:
+After completing the lesson:
 
 1. Make sure that you have:
    - Commited changes to the **{{site.data.assignment.git-curr-branch}}** branch.
    - Merged the **{{site.data.assignment.git-curr-branch}}** into your **master** branch.
    - Pushed your changes to GitHub.
    - Confirmed that you see your changes on GitHub.
-1. Then, make a copy of the [submission template][template]. 
+1. Then, get a copy of the [submission template][template].
+1. Rename the file and move it to your class folder on your Google Drive.
 1. Complete the template.
 1. Submit as usual.
 
