@@ -21,3 +21,11 @@ This template is the boilerplate for a single Canvas assignment.
 
 [canvas-theme]: <https://github.com/DouglasUrner/canvas>
 [liquid]: <https://shopify.github.io/liquid/>
+
+## Updating From The Template Repository
+
+In a terminal window, run the commands:
+
+1. git remote add template [_URL of your repo_] # One time.
+1. git fetch --all
+1. git merge template/[_branch to merge_] --allow-unrelated-histories
