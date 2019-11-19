@@ -76,7 +76,7 @@ After you have finished all of the videos for the lesson, do one final test to e
 - Push your changes to GitHub.
 
   After pushing, use the **View on GitHub** button in GitHub Desktop to go to your repository on GitHub and confirm that your changes are visible.
-- Repeat for the next video.
+- While videos remain, repeat with next video.
 
 </details></p>
 
