@@ -11,7 +11,7 @@ After completing the lesson:
    - Merged the **{{site.data.assignment.git-curr-branch}}** branch into your **master** branch.
    - Pushed your work to GitHub.
    - Confirmed that you see your changes on GitHub.
-1. Then, make a copy of the [submission template][template].
+1. Then, make a copy of the [submission template][copy-template].
 1. Rename the template and move it to your class folder on your Google Drive.
 1. Complete the template.
 1. Submit as usual.
@@ -23,3 +23,4 @@ After completing the lesson:
 {% if site.data.assignment.lesson   %}[lesson]: <{{site.data.assignment.lesson}}>     {% endif %}
 {% if site.data.assignment.slides   %}[slides]:   <{{site.data.assignment.slides}}>   {% endif %}
 {% if site.data.assignment.template %}[template]: <{{site.data.assignment.template}}> {% endif %}
+{% if site.data.assignment.template %}[copy-template]: <{{site.data.assignment.template}}/copy> {% endif %}
