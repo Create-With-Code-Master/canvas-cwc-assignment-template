@@ -9,7 +9,7 @@ After completing the lesson:
 1. Make sure that you have:
    - Commited your changes to the **{{site.data.assignment.git-curr-branch}}** branch.
    - Pushed your work to GitHub.
-   - Confirmed that your **{{site.data.repo}}** repository is public and that you see your changes on GitHub.
+   - Confirmed that your **{{site.data.starter-code-repo}}** repository is public and that you see your changes on GitHub.
 1. Copy the URL of your repository
 
 {% include submission-boilerplate.html %}
