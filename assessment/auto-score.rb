@@ -2,6 +2,8 @@
 
 # Automated checks
 
+require 'optparse'
+
 opts = {
   tmp_dir: "tmp",
   verbose: false
@@ -14,4 +16,4 @@ OptionParser.new do |o|
   o.on("-v")        { |v| opts[:verbose] = true }
 end.parse!
 
-p ARGV
+repo = ARGV.pop
