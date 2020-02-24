@@ -9,11 +9,8 @@ After completing the lesson:
 1. Make sure that you have:
    - Commited your changes to the **{{site.data.assignment.git-curr-branch}}** branch.
    - Pushed your work to GitHub.
-   - Confirmed that you see your changes on GitHub.
-1. Then, make a copy of the [submission template][template].
-1. Rename the template and move it to your class folder on your Google Drive.
-1. Complete the template.
-1. Submit as usual.
+   - Confirmed that your **{{site.data.repo}}** repository is public and that you see your changes on GitHub.
+1. Copy the URL of your repository
 
 {% include submission-boilerplate.html %}
 
