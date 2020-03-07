@@ -8,10 +8,13 @@ At this level, the student either knows the answer, or they do not. These are no
 
 ### Examples of Products and Assessments
 
+Demonstrate knowledge of:
 * Vocabulary
 * Definitions
 * Matching program names to icons
 * UI elements
+
+Products:
 
 ## Level 2: Working With Skills & Concepts
 
