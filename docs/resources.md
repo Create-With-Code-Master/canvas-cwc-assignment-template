@@ -8,9 +8,11 @@ layout: tabbed-assignment
 * [Presentation Slides][slides]
 {% endif %}
 {% if site.data.assignment.template %}
-* View the [submission template][template] - make a [copy of the submission template][copy-template]
+* View the [submission template][template] - make a [copy of the template][copy-template]
 {% endif %}
+{% if site.data.assignment.lesson %}
 * [Lesson][]
+{% endif %}
 
 <!-- Don't edit links here, change them in _data/assignment.yml instead. -->
 
